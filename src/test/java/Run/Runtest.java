@@ -9,7 +9,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
             format = {"pretty",
                     "html:target/site/cucumber-pretty",
                     "rerun:target/site/return.txt",
-                    "json:target/cucumber.json"},
+                    "json:target/cucumberjson.json"},
  tags = {"@Automation"},
         glue = {"com.steps"})
 
