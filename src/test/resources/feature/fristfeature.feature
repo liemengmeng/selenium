@@ -1,4 +1,5 @@
 #language:zh-CN
+@Automation
 功能:登录模块
   场景:正确登录
    当打开网页

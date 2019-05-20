@@ -10,7 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
                     "html:target/site/cucumber-pretty",
                     "rerun:target/site/return.txt",
                     "json:target/cucumber.json"},
- tags = {"@Autcmntion"},
+ tags = {"@Automation"},
         glue = {"com.steps"})
 
     public class Runtest extends AbstractTestNGCucumberTests {
