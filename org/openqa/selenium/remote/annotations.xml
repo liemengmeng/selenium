@@ -1,0 +1,5 @@
+<root>
+    <item name='org.openqa.selenium.remote.DesiredCapabilities'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
