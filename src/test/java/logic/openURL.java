@@ -18,6 +18,7 @@ public  class openURL {
         //全局等待，隐式等待
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         driver.get("http://192.168.100.17/#/Login");
+        driver.manage().window().maximize();
 
 
 

@@ -5,7 +5,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
 @CucumberOptions(
-            features = "src/test/resources/feature/step_definitions",
+            features = "src/test/resources/feature",
             format = {"pretty",
                     "html:target/site/cucumber-pretty",
                     "rerun:target/site/return.txt",

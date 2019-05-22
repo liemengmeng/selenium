@@ -1,11 +1,12 @@
 package logic;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.Test;
+
 import pages.login;
 
-import java.net.URL;
+
 
 public class login_logic {
     //账号密码登录
@@ -22,25 +23,24 @@ public class login_logic {
     //点击切换手机号的登录按钮
     openURL.driver.findElement(login.tellogin).click();
     openURL.driver.findElement(login.tel).sendKeys(tel);
-        //显示等待
-        WebDriverWait wait =new WebDriverWait(openURL.driver,61);
-        wait.until(ExpectedConditions.presenceOfElementLocated(login.buttel));
+        try {
+            Thread.sleep(62000);
+        }catch (Exception e ){
+        }
         openURL.driver.findElement(login.buttel).click();
     try {
         Thread.sleep(3000);
     }catch (Exception e ){
     }
         openURL.driver.findElement(login.yanzheng).sendKeys(yanzheng);
-    //显示等待
-    wait.until(ExpectedConditions.presenceOfElementLocated(login.longinbut));
     openURL.driver.findElement(login.longinbut).click();
 
 
 }
-//登录成功校验昵称
+//登录存在店铺管理
 
     public static void assertlogin( String user) {
-    String getuser = openURL.driver.findElement(login.user).getText();
+    String getuser = openURL.driver.findElement(By.xpath("//*[@id=\"app\"]/div[2]/div/div/div[1]/div/div/a")).getText();
     Assert.assertEquals(getuser, user);
 
 }

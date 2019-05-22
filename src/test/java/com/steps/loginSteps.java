@@ -5,8 +5,10 @@ import cucumber.api.java.zh_cn.那么;
 import logic.login_logic;
 import logic.openURL;
 import logic.quitURL;
+import org.testng.annotations.Test;
 
 public class loginSteps {
+
     //正确账号密码登录
     @假如("^录入账号\"([^\"]*)\"录入密码\"([^\"]*)\"后点击登录$")
     public void 录入账号录入密码(String username, String password)  {
@@ -16,7 +18,7 @@ public class loginSteps {
     @那么("^登录成功退出登录执行下一场景$")
     public void 登录成功() {
         //校验用户昵称是否与预期结果一致
-        login_logic.assertlogin("啦啦");
+        login_logic.assertlogin("店铺管理");
         //退出登录
         login_logic.out();
     }
@@ -41,7 +43,7 @@ login_logic.loginfalse();
     @那么("^登录成功$")
     public void 登录成功2()  {
         //校验用户昵称是否与预期结果一致
-        login_logic.assertlogin("啦啦");
+        login_logic.assertlogin("店铺管理");
         //点击退出执行下一场景
         login_logic.out();
 

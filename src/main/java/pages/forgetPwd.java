@@ -15,8 +15,8 @@ public class forgetPwd {
 
     //重置密码页面
 //新密码
-    public static By newpwd = By.xpath("//*[@id=\"app\"]/div[1]/div/div[3]/div/form/div[1]/div/div/input");
-    public static By affirmpwd = By.xpath("//*[@id=\"app\"]/div[1]/div/div[3]/div/form/div[2]/div/div/input");
+    public static By newpwd1 = By.xpath("//*[@id=\"app\"]/div[1]/div/div[3]/div/form/div[1]/div/div/input");
+    public static By newpwd2= By.xpath("//*[@id=\"app\"]/div[1]/div/div[3]/div/form/div[2]/div/div/input");
     public static By affirmBut = By.xpath("//*[@id=\"app\"]/div[1]/div/div[3]/div/form/div[3]/div/button");
 
     //重置成功
