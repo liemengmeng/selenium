@@ -55,7 +55,7 @@ formatter.match({
   "location": "forgetSteps.点击忘记密码按钮()"
 });
 formatter.result({
-  "duration": 8190692416,
+  "duration": 8312066184,
   "status": "passed"
 });
 formatter.match({
@@ -72,14 +72,14 @@ formatter.match({
   "location": "forgetSteps.账号获取验证码录入验证码(String,String)"
 });
 formatter.result({
-  "duration": 64528607711,
+  "duration": 64749477718,
   "status": "passed"
 });
 formatter.match({
   "location": "forgetSteps.点击下一步()"
 });
 formatter.result({
-  "duration": 140335473,
+  "duration": 262710884,
   "status": "passed"
 });
 formatter.match({
@@ -96,14 +96,14 @@ formatter.match({
   "location": "forgetSteps.重置密码新密码确认并确认(String,String)"
 });
 formatter.result({
-  "duration": 474257259,
+  "duration": 669084544,
   "status": "passed"
 });
 formatter.match({
   "location": "forgetSteps.重置成功()"
 });
 formatter.result({
-  "duration": 1360148320,
+  "duration": 1301119489,
   "status": "passed"
 });
 formatter.uri("step_definitions/login.feature");
@@ -158,14 +158,14 @@ formatter.match({
   "location": "loginSteps.录入账号录入密码(String,String)"
 });
 formatter.result({
-  "duration": 6864776778,
+  "duration": 7329955801,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录成功()"
 });
 formatter.result({
-  "duration": 2626295674,
+  "duration": 543268464,
   "status": "passed"
 });
 formatter.scenario({
@@ -206,14 +206,14 @@ formatter.match({
   "location": "loginSteps.录入账号加密码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 712393129,
+  "duration": 748141571,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录失败()"
 });
 formatter.result({
-  "duration": 10361665,
+  "duration": 11273733,
   "status": "passed"
 });
 formatter.scenario({
@@ -254,14 +254,14 @@ formatter.match({
   "location": "loginSteps.录入手机号录入验证码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 65700209192,
+  "duration": 65795468393,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录成功2()"
 });
 formatter.result({
-  "duration": 453856303,
+  "duration": 463555959,
   "status": "passed"
 });
 formatter.scenario({
@@ -302,14 +302,14 @@ formatter.match({
   "location": "loginSteps.录入手机号加验证码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 65846061401,
+  "duration": 65906609259,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.失败()"
 });
 formatter.result({
-  "duration": 18272173,
+  "duration": 30165460,
   "status": "passed"
 });
 formatter.scenario({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "loginSteps.关闭浏览器()"
 });
 formatter.result({
-  "duration": 1159588295,
+  "duration": 1060577715,
   "status": "passed"
 });
 });
