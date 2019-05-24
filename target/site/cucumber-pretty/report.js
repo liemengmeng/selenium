@@ -55,7 +55,7 @@ formatter.match({
   "location": "forgetSteps.点击忘记密码按钮()"
 });
 formatter.result({
-  "duration": 8312066184,
+  "duration": 16892919358,
   "status": "passed"
 });
 formatter.match({
@@ -72,14 +72,14 @@ formatter.match({
   "location": "forgetSteps.账号获取验证码录入验证码(String,String)"
 });
 formatter.result({
-  "duration": 64749477718,
+  "duration": 65067021914,
   "status": "passed"
 });
 formatter.match({
   "location": "forgetSteps.点击下一步()"
 });
 formatter.result({
-  "duration": 262710884,
+  "duration": 325839593,
   "status": "passed"
 });
 formatter.match({
@@ -96,14 +96,14 @@ formatter.match({
   "location": "forgetSteps.重置密码新密码确认并确认(String,String)"
 });
 formatter.result({
-  "duration": 669084544,
+  "duration": 1014921543,
   "status": "passed"
 });
 formatter.match({
   "location": "forgetSteps.重置成功()"
 });
 formatter.result({
-  "duration": 1301119489,
+  "duration": 1662750912,
   "status": "passed"
 });
 formatter.uri("step_definitions/login.feature");
@@ -158,14 +158,14 @@ formatter.match({
   "location": "loginSteps.录入账号录入密码(String,String)"
 });
 formatter.result({
-  "duration": 7329955801,
+  "duration": 20076760294,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录成功()"
 });
 formatter.result({
-  "duration": 543268464,
+  "duration": 1344352963,
   "status": "passed"
 });
 formatter.scenario({
@@ -206,14 +206,14 @@ formatter.match({
   "location": "loginSteps.录入账号加密码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 748141571,
+  "duration": 1470233424,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录失败()"
 });
 formatter.result({
-  "duration": 11273733,
+  "duration": 38726313,
   "status": "passed"
 });
 formatter.scenario({
@@ -254,15 +254,16 @@ formatter.match({
   "location": "loginSteps.录入手机号录入验证码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 65795468393,
+  "duration": 66299920503,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录成功2()"
 });
 formatter.result({
-  "duration": 463555959,
-  "status": "passed"
+  "duration": 12992683853,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath\u003d//*[@id\u003d\"app\"]/div[2]/div/div/div[1]/div/div/a\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u00277JYZXTMLZ4PZZPL\u0027, ip: \u0027192.168.100.51\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat logic.login_logic.assertlogin(login_logic.java:43)\r\n\tat com.steps.loginSteps.登录成功2(loginSteps.java:46)\r\n\tat ✽.那么登录成功(step_definitions/login.feature:18)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 21,
@@ -302,15 +303,15 @@ formatter.match({
   "location": "loginSteps.录入手机号加验证码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 65906609259,
-  "status": "passed"
+  "duration": 40855563,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d74.0.3729.169)\n  (Driver info: chromedriver\u003d72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform\u003dWindows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u00277JYZXTMLZ4PZZPL\u0027, ip: \u0027192.168.100.51\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55079}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}\nSession ID: 48c13542855ade22dc6c433660bc7ee3\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"app\"]/div[2]/div[2]/div[1]/span[2]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat logic.login_logic.tellogin(login_logic.java:24)\r\n\tat com.steps.loginSteps.录入手机号加验证码后点击登录(loginSteps.java:54)\r\n\tat ✽.假如录入手机号\"13592280538\"加验证码\"1234\"后点击登录(step_definitions/login.feature:22)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "loginSteps.失败()"
 });
 formatter.result({
-  "duration": 30165460,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 27,
@@ -335,7 +336,7 @@ formatter.match({
   "location": "loginSteps.关闭浏览器()"
 });
 formatter.result({
-  "duration": 1060577715,
+  "duration": 1555736518,
   "status": "passed"
 });
 });

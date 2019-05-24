@@ -18,24 +18,22 @@ public class releaseCasse {
     //发布案例第二步
     //项目名称
     public static By casename=By.xpath("//*[@id=\"productTitle\"]");
-    //选择省文本框
-    public static By sheng=By.xpath("//*[@id=\"struct-productKeywords\"]/div/div[2]/div[1]/div[1]/div/input");
-    public static WebElement kuang1=(WebElement)By.xpath("/html/body/div[5]/div[1]/div[1]/ul");
-    //定位到天津
-    public static By tianjin=By.xpath("/html/body/div[5]/div[1]/div[1]/ul/li[3]/span");
+    //选省文本框
+    public static By sheng=By.xpath("//*[@id=\"struct-productKeywords\"]/div/div[2]/div[1]/div[1]/div[1]/input");
+    //定位到具体省
+    public static By getsheng=By.xpath("/html/body/div[3]/div[1]/div[1]/ul/li[12]");
 
 
     //选择市文本框
-    public static By shi=By.xpath("//*[@id=\"struct-productKeywords\"]/div/div[2]/div[1]/div[2]/div[1]/input");
-    //选择框
-    public static WebElement kuang2=(WebElement)By.xpath("/html/body/div[5]/div[1]/div[1]/ul");
-    //定位到天津市
-    public static  By tianjinshi=By.xpath("/html/body/div[5]/div[1]/div[1]/ul/li/span");
+    public static By shi=By.xpath("//*[@id=\"struct-productKeywords\"]/div/div[2]/div[1]/div[2]/div/input");
+
+    //定位到具体市
+    public static  By getShi=By.xpath("/html/body/div[4]/div[1]/div[1]/ul/li[3]");
 
     //选择区文本框
-    public static By qu=By.xpath("//*[@id=\"struct-productKeywords\"]/div/div[2]/div[1]/div[3]/div[1]/input");
-    public static WebElement kuang3=(WebElement)By.xpath("/html/body/div[5]/div[1]/div[1]/ul]");
-    public static By hepingqu=By.xpath("/html/body/div[5]/div[1]/div[1]/ul/li[1]/span");
+    public static By qu=By.xpath("//*[@id=\"struct-productKeywords\"]/div/div[2]/div[1]/div[3]/div/input");
+    public static By  getQu=By.xpath("\"/html/body/div[5]/div[1]/div[1]/ul/li[3]");
+
 
 
     //案例图片浏览按钮
@@ -53,4 +51,5 @@ public class releaseCasse {
     //继续发布按钮
     public  static By jixu=By.xpath("//*[@id=\"app\"]/div[2]/div[2]/div[2]/button[2]/span");
     public static By fanhui=By.xpath("//*[@id=\"app\"]/div[2]/div[2]/div[2]/button[1]/span");
+
 }
