@@ -32,7 +32,7 @@ public class releaseCasse {
 
     //选择区文本框
     public static By qu=By.xpath("//*[@id=\"struct-productKeywords\"]/div/div[2]/div[1]/div[3]/div/input");
-    public static By  getQu=By.xpath("\"/html/body/div[5]/div[1]/div[1]/ul/li[3]");
+    public static By  getQu=By.xpath("/html/body/div[5]/div[1]/div[1]/ul/li[4]");
 
 
 
