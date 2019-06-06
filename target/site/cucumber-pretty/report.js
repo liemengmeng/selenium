@@ -55,7 +55,7 @@ formatter.match({
   "location": "forgetSteps.点击忘记密码按钮()"
 });
 formatter.result({
-  "duration": 15355221280,
+  "duration": 15981130667,
   "status": "passed"
 });
 formatter.match({
@@ -72,14 +72,14 @@ formatter.match({
   "location": "forgetSteps.账号获取验证码录入验证码(String,String)"
 });
 formatter.result({
-  "duration": 64929161857,
+  "duration": 64634149732,
   "status": "passed"
 });
 formatter.match({
   "location": "forgetSteps.点击下一步()"
 });
 formatter.result({
-  "duration": 258920782,
+  "duration": 174180934,
   "status": "passed"
 });
 formatter.match({
@@ -96,14 +96,14 @@ formatter.match({
   "location": "forgetSteps.重置密码新密码确认并确认(String,String)"
 });
 formatter.result({
-  "duration": 749389544,
+  "duration": 479676489,
   "status": "passed"
 });
 formatter.match({
   "location": "forgetSteps.重置成功()"
 });
 formatter.result({
-  "duration": 1683345479,
+  "duration": 1536303148,
   "status": "passed"
 });
 formatter.uri("step_definitions/login.feature");
@@ -158,14 +158,14 @@ formatter.match({
   "location": "loginSteps.录入账号录入密码(String,String)"
 });
 formatter.result({
-  "duration": 14439339709,
+  "duration": 14288944883,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录成功()"
 });
 formatter.result({
-  "duration": 972590808,
+  "duration": 899039785,
   "status": "passed"
 });
 formatter.scenario({
@@ -206,14 +206,14 @@ formatter.match({
   "location": "loginSteps.录入账号加密码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 1923839666,
+  "duration": 1165388681,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录失败()"
 });
 formatter.result({
-  "duration": 37348646,
+  "duration": 34434223,
   "status": "passed"
 });
 formatter.scenario({
@@ -254,14 +254,14 @@ formatter.match({
   "location": "loginSteps.录入手机号录入验证码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 66692588867,
+  "duration": 66076469178,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.登录成功2()"
 });
 formatter.result({
-  "duration": 793527622,
+  "duration": 598066320,
   "status": "passed"
 });
 formatter.scenario({
@@ -302,14 +302,14 @@ formatter.match({
   "location": "loginSteps.录入手机号加验证码后点击登录(String,String)"
 });
 formatter.result({
-  "duration": 66380038424,
+  "duration": 66191502782,
   "status": "passed"
 });
 formatter.match({
   "location": "loginSteps.失败()"
 });
 formatter.result({
-  "duration": 28136514,
+  "duration": 28398705,
   "status": "passed"
 });
 formatter.scenario({
@@ -335,7 +335,95 @@ formatter.match({
   "location": "loginSteps.关闭浏览器()"
 });
 formatter.result({
-  "duration": 1530533554,
+  "duration": 1558307573,
+  "status": "passed"
+});
+formatter.uri("step_definitions/releaseCase.feature");
+formatter.feature({
+  "comments": [
+    {
+      "line": 1,
+      "value": "#language:zh-CN"
+    }
+  ],
+  "line": 2,
+  "name": "发布案例",
+  "description": "",
+  "id": "发布案例",
+  "keyword": "功能"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "发布改造类空调案例",
+  "description": "",
+  "id": "发布案例;发布改造类空调案例",
+  "type": "scenario",
+  "keyword": "场景",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@Automation"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "登录账号",
+  "keyword": "当"
+});
+formatter.step({
+  "line": 6,
+  "name": "打开发布案例页面，第一步选择类目分类",
+  "keyword": "并且"
+});
+formatter.step({
+  "line": 7,
+  "name": "填写案例详情信息",
+  "keyword": "并且"
+});
+formatter.step({
+  "line": 8,
+  "name": "进入审核并且返回列表",
+  "keyword": "并且"
+});
+formatter.step({
+  "line": 9,
+  "name": "发布成功，退出浏览器",
+  "keyword": "那么"
+});
+formatter.match({
+  "location": "releaseCaseSteps.登录账号()"
+});
+formatter.result({
+  "duration": 17902750110,
+  "status": "passed"
+});
+formatter.match({
+  "location": "releaseCaseSteps.打开发布案例页面第一步选择类目分类()"
+});
+formatter.result({
+  "duration": 4071133457,
+  "status": "passed"
+});
+formatter.match({
+  "location": "releaseCaseSteps.填写案例详情信息()"
+});
+formatter.result({
+  "duration": 26907719604,
+  "status": "passed"
+});
+formatter.match({
+  "location": "releaseCaseSteps.进入审核并且返回列表()"
+});
+formatter.result({
+  "duration": 816134806,
+  "status": "passed"
+});
+formatter.match({
+  "location": "releaseCaseSteps.发布成功退出浏览器()"
+});
+formatter.result({
+  "duration": 1694821687,
   "status": "passed"
 });
 });

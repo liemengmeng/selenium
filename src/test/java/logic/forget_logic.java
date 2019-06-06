@@ -12,6 +12,7 @@ public class forget_logic {
 public  static void skipForget(){
         //点击忘记密码页面跳转
     openURL.driver.findElement(forgetPwd.pwdBut).click();
+
     //校验url是否正确
     String url=openURL.driver.getCurrentUrl();
     Assert.assertEquals(url,"http://192.168.100.17/#/reset");

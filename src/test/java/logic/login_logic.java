@@ -15,6 +15,7 @@ public class login_logic {
     openURL.driver.findElement(login.loginName).sendKeys( username);
     openURL.driver.findElement(login.passWord).sendKeys(password);
     openURL.driver.findElement(login.longinbut).click();
+
     }
 
     //验证码登录

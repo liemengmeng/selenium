@@ -1,5 +1,6 @@
 package com.steps;
 
+import com.fengzhaung.seleniumdriver;
 import cucumber.api.PendingException;
 import cucumber.api.java.zh_cn.假如;
 import cucumber.api.java.zh_cn.并且;
@@ -11,7 +12,7 @@ import logic.quitURL;
 public class forgetSteps {
     @假如("^点击忘记密码按钮$")
     public void 点击忘记密码按钮() {
-        openURL.open();
+   openURL.open();
         forget_logic.skipForget();
     }
 

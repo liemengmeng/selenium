@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15355221280,
+              "duration": 15981130667,
               "status": "passed"
             },
             "line": 5,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 64929161857,
+              "duration": 64634149732,
               "status": "passed"
             },
             "line": 6,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 258920782,
+              "duration": 174180934,
               "status": "passed"
             },
             "line": 7,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 749389544,
+              "duration": 479676489,
               "status": "passed"
             },
             "line": 8,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 1683345479,
+              "duration": 1536303148,
               "status": "passed"
             },
             "line": 9,
@@ -130,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14439339709,
+              "duration": 14288944883,
               "status": "passed"
             },
             "line": 5,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 972590808,
+              "duration": 899039785,
               "status": "passed"
             },
             "line": 6,
@@ -180,7 +180,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1923839666,
+              "duration": 1165388681,
               "status": "passed"
             },
             "line": 10,
@@ -202,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 37348646,
+              "duration": 34434223,
               "status": "passed"
             },
             "line": 11,
@@ -230,7 +230,7 @@
         "steps": [
           {
             "result": {
-              "duration": 66692588867,
+              "duration": 66076469178,
               "status": "passed"
             },
             "line": 17,
@@ -252,7 +252,7 @@
           },
           {
             "result": {
-              "duration": 793527622,
+              "duration": 598066320,
               "status": "passed"
             },
             "line": 18,
@@ -280,7 +280,7 @@
         "steps": [
           {
             "result": {
-              "duration": 66380038424,
+              "duration": 66191502782,
               "status": "passed"
             },
             "line": 22,
@@ -302,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 28136514,
+              "duration": 28398705,
               "status": "passed"
             },
             "line": 23,
@@ -330,7 +330,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1530533554,
+              "duration": 1558307573,
               "status": "passed"
             },
             "line": 28,
@@ -354,5 +354,97 @@
     "id": "登录模块",
     "keyword": "功能",
     "uri": "step_definitions/login.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:zh-CN"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "发布改造类空调案例",
+        "description": "",
+        "id": "发布案例;发布改造类空调案例",
+        "type": "scenario",
+        "keyword": "场景",
+        "steps": [
+          {
+            "result": {
+              "duration": 17902750110,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "登录账号",
+            "match": {
+              "location": "releaseCaseSteps.登录账号()"
+            },
+            "keyword": "当"
+          },
+          {
+            "result": {
+              "duration": 4071133457,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "打开发布案例页面，第一步选择类目分类",
+            "match": {
+              "location": "releaseCaseSteps.打开发布案例页面第一步选择类目分类()"
+            },
+            "keyword": "并且"
+          },
+          {
+            "result": {
+              "duration": 26907719604,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "填写案例详情信息",
+            "match": {
+              "location": "releaseCaseSteps.填写案例详情信息()"
+            },
+            "keyword": "并且"
+          },
+          {
+            "result": {
+              "duration": 816134806,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "进入审核并且返回列表",
+            "match": {
+              "location": "releaseCaseSteps.进入审核并且返回列表()"
+            },
+            "keyword": "并且"
+          },
+          {
+            "result": {
+              "duration": 1694821687,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "发布成功，退出浏览器",
+            "match": {
+              "location": "releaseCaseSteps.发布成功退出浏览器()"
+            },
+            "keyword": "那么"
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Automation"
+          }
+        ]
+      }
+    ],
+    "name": "发布案例",
+    "description": "",
+    "id": "发布案例",
+    "keyword": "功能",
+    "uri": "step_definitions/releaseCase.feature"
   }
 ]
