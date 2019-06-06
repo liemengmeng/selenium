@@ -27,7 +27,7 @@ public class ExcelUtil {
             }
 
         }else{
-           log. severe("文件格式必须为xls格式");
+       //缺少log
         }
     }
     */

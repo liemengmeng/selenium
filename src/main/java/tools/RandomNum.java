@@ -1,14 +1,13 @@
 package tools;
 
-import com.google.common.annotations.VisibleForTesting;
+
 import log4j.LoggerControler;
 
-import java.lang.annotation.Target;
 import java.util.Random;
 
 public class RandomNum {
 //生成N位数的一个随机数
-        static LoggerControler log=    LoggerControler.getLogger(RandomNum.class);
+        static LoggerControler log=LoggerControler.getLogger(RandomNum.class);
         public static String getNumRandom(int length){
                 String num="";
                 //random生成0-1的随机数，*10的多少次方后转为int类型，在转换为String类型

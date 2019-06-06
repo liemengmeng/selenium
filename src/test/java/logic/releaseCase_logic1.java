@@ -3,7 +3,6 @@ package logic;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.Test;
 import pages.releaseCasse;
 
 import java.awt.*;

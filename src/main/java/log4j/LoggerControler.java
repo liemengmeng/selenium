@@ -1,12 +1,13 @@
 package log4j;
 
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-import java.util.logging.Logger;
+
 
 
 public class LoggerControler {
@@ -30,24 +31,20 @@ public class LoggerControler {
             logger=  Logger.getLogger(String.valueOf(T));
             logg=new LoggerControler();
         }
-
         return logg;
     }
     /*
     重写logger方法
      */
-    public static void config(String msg) {
-        logger.config(msg);
+    public static void debug(String msg) {
+        logger.debug(msg);
     }
     public static void info(String msg){
         logger.info(msg);
     }
-    public static void warning(String msg) {
-        logger.warning(msg);
+    public static void error(String msg) {
+        logger.error(msg);
     }
-    public static void severe(String msg) {
-        logger.severe(msg); }
-
-
+    public static void warn(String msg) {
+        logger.warn(msg); }
 }
-

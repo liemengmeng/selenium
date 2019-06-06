@@ -1,0 +1,3 @@
+2019-06-06 15:41:20,680 ERROR main [class logic.testcase]error(line:46)这是一个error
+2019-06-06 15:55:42,748 INFO main [class logic.testcase]info(line:43)生成的随机数是37669
+2019-06-06 15:55:42,755 ERROR main [class logic.testcase]error(line:46)这是一个error

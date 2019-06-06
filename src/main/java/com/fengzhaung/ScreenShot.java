@@ -24,7 +24,7 @@ import java.io.IOException;
         FileUtils.copyFile(file,new File(path+DateUtils.fromat(DateUtils.CHECK_LOG_FORMAT)+"/"
         DateUtile.format(DateUtils.RANGE_WEEK_RELATIVE)+"jpg"));
     }catch(IOException e){
-log. severe("截图失败");
+//缺少log
 e.printStackTrace();
     }
 

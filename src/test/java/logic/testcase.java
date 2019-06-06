@@ -1,17 +1,18 @@
 package logic;
 
+
 import log4j.LoggerControler;
 import org.testng.annotations.Test;
 import tools.RandomNum;
 
-import java.util.logging.Logger;
-
 public class testcase {
-    LoggerControler log=LoggerControler.getLogger(testcase.class);
+LoggerControler log= LoggerControler.getLogger(testcase.class);
 
     @Test
     public void show(){
-log.info("test");
+        RandomNum.getNumRandom(5);
+log.error("这是一个error");
+
     }
 
 }

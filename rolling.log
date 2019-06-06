@@ -1,0 +1,3 @@
+[framework] 2019-06-06 15:39:40,154 - class logic.testcase -0    [main] ERROR class logic.testcase  - test
+[framework] 2019-06-06 15:41:20,680 - class logic.testcase -0    [main] ERROR class logic.testcase  - 这是一个error
+[framework] 2019-06-06 15:55:42,755 - class logic.testcase -7    [main] ERROR class logic.testcase  - 这是一个error
