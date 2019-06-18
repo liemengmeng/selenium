@@ -1,3 +1,6 @@
 2019-06-06 15:41:20,680 ERROR main [class logic.testcase]error(line:46)这是一个error
 2019-06-06 15:55:42,748 INFO main [class logic.testcase]info(line:43)生成的随机数是37669
 2019-06-06 15:55:42,755 ERROR main [class logic.testcase]error(line:46)这是一个error
+2019-06-12 15:48:37,334 INFO main [class logic.testcase]info(line:43)number
+2019-06-17 17:35:43,624 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-17 下午5:35
+2019-06-17 17:38:43,105 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-17 下午5:38
