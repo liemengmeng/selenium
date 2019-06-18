@@ -1,5 +1,4 @@
 package tools;
-
 import log4j.LoggerControler;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -13,7 +12,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
-
 
 import static log4j.LoggerControler.getLogger;
 
@@ -62,7 +60,7 @@ public class ExcelUtil {
                 cell.setCellValue(titleRow[i]);
             }
             try {
-                FileOutputStream  fileOutputStream=new FileOutputStream(filePath);
+                FileOutputStream   fileOutputStream=new FileOutputStream(filePath);
                 workbook.write(fileOutputStream);
                 fileOutputStream.close();
             } catch (IOException e) {
@@ -80,7 +78,7 @@ public class ExcelUtil {
             Sheet sheet1=workbook.createSheet("sheet1");
             FileOutputStream fileOutputStream=null;
             try {
-         fileOutputStream=new FileOutputStream(filePath);
+                fileOutputStream=new FileOutputStream(filePath);
                 workbook.write(fileOutputStream);
                 fileOutputStream.close();
             } catch (IOException e) {
@@ -96,10 +94,9 @@ public class ExcelUtil {
      list.add("222")
      <p/>*/
     public static void writeInfoToExcel(String filePath, ArrayList<ArrayList<String>> infos){
-        File file = new File(filePath);
-        if(!file.exists()){
 
 
+        if (!MyFile.fileExist(filePath)){
             ExcelUtil.createExcel1(filePath);
         }
         workbook=new HSSFWorkbook();
@@ -127,11 +124,7 @@ public class ExcelUtil {
     插入内容infos*/
 
     public static void writeInfoToExcelByRow(String filePath,int row,ArrayList<ArrayList<String>> infos){
-        File file = new File(filePath);
-        if (!file.exists()){
-
-
-
+        if (!MyFile.fileExist(filePath)){
             ExcelUtil.createExcel1(filePath);
         }
         workbook=new HSSFWorkbook();
@@ -156,12 +149,7 @@ public class ExcelUtil {
     //指定列插入数据
     public static void writeInfoToExcelByCell(String filePath, int cell, ArrayList<ArrayList<String>> infos) {
 //        判断文件是否存在
-        File file = new File(filePath);
-        if (!file.exists()) {
-
-
-
-
+        if (!MyFile.fileExist(filePath)){
             ExcelUtil.createExcel1(filePath);
         }
         workbook = new HSSFWorkbook();
