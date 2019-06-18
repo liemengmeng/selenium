@@ -4,3 +4,50 @@
 2019-06-12 15:48:37,334 INFO main [class logic.testcase]info(line:43)number
 2019-06-17 17:35:43,624 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-17 下午5:35
 2019-06-17 17:38:43,105 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-17 下午5:38
+2019-06-18 16:22:14,796 INFO main [testng.TestngRetry]<clinit>(line:24)retrycount=2
+2019-06-18 16:22:14,803 INFO main [testng.TestngRetry]<clinit>(line:25)sourceCodeDir=src
+2019-06-18 16:22:14,804 INFO main [testng.TestngRetry]<clinit>(line:26)sourceCodeEncoding=UTF-8
+2019-06-18 16:22:16,617 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 16:23:33,746 INFO main [testng.TestResultListener]onTestSuccess(line:42)feature Success
+2019-06-18 16:23:33,747 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 16:25:55,555 INFO main [testng.TestResultListener]onTestSuccess(line:42)feature Success
+2019-06-18 16:25:55,556 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 16:27:33,775 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 1 times
+2019-06-18 16:27:33,808 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 16:29:12,499 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 2 times
+2019-06-18 16:29:12,565 INFO main [testng.TestResultListener]onFinish(line:60)PassedTests = feature
+2019-06-18 16:29:12,565 INFO main [testng.TestResultListener]onFinish(line:60)PassedTests = feature
+2019-06-18 16:40:10,165 INFO main [testng.TestngRetry]<clinit>(line:24)retrycount=2
+2019-06-18 16:40:10,173 INFO main [testng.TestngRetry]<clinit>(line:25)sourceCodeDir=src
+2019-06-18 16:40:10,174 INFO main [testng.TestngRetry]<clinit>(line:26)sourceCodeEncoding=UTF-8
+2019-06-18 16:40:11,949 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 16:41:28,530 INFO main [testng.TestResultListener]onTestSuccess(line:42)feature Success
+2019-06-18 16:41:28,534 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 16:43:50,907 INFO main [testng.TestResultListener]onTestSuccess(line:42)feature Success
+2019-06-18 16:43:50,909 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 16:45:30,283 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 1 times
+2019-06-18 16:45:30,311 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 16:46:13,237 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 2 times
+2019-06-18 16:46:13,368 INFO main [testng.TestResultListener]onFinish(line:60)PassedTests = feature
+2019-06-18 16:46:13,370 INFO main [testng.TestResultListener]onFinish(line:60)PassedTests = feature
+2019-06-18 17:06:25,794 INFO main [testng.TestngRetry]<clinit>(line:24)retrycount=2
+2019-06-18 17:06:25,801 INFO main [testng.TestngRetry]<clinit>(line:25)sourceCodeDir=src
+2019-06-18 17:06:25,802 INFO main [testng.TestngRetry]<clinit>(line:26)sourceCodeEncoding=UTF-8
+2019-06-18 17:06:27,544 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 17:06:34,573 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 1 times
+2019-06-18 17:06:34,655 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 17:06:40,777 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 2 times
+2019-06-18 17:14:56,241 INFO main [testng.TestngRetry]<clinit>(line:24)retrycount=2
+2019-06-18 17:14:56,252 INFO main [testng.TestngRetry]<clinit>(line:25)sourceCodeDir=src
+2019-06-18 17:14:56,253 INFO main [testng.TestngRetry]<clinit>(line:26)sourceCodeEncoding=UTF-8
+2019-06-18 17:14:57,936 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 17:15:04,255 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 1 times
+2019-06-18 17:15:04,309 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 17:15:09,676 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 2 times
+2019-06-18 17:18:24,042 INFO main [testng.TestngRetry]<clinit>(line:24)retrycount=2
+2019-06-18 17:18:24,052 INFO main [testng.TestngRetry]<clinit>(line:25)sourceCodeDir=src
+2019-06-18 17:18:24,053 INFO main [testng.TestngRetry]<clinit>(line:26)sourceCodeEncoding=UTF-8
+2019-06-18 17:18:25,881 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 17:18:32,753 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 1 times
+2019-06-18 17:18:32,836 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
+2019-06-18 17:18:38,145 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 2 times
