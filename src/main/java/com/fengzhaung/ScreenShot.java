@@ -12,14 +12,14 @@ import tools.MyFile;
 import java.io.File;
 import java.io.IOException;
 
-
+import static tools.DateFormat.ZH_DATE_FORMAT;
 
 
 /**
- * 必须要继承SeleniumDrivers
+ * Created by lenovo on 2016/11/12.必须要继承SeleniumDrivers
  */
 public class ScreenShot extends seleniumdriver{
-    final static LoggerControler log=LoggerControler.getLogger(ScreenShot.class);
+    static final LoggerControler log = LoggerControler.getLogger(ScreenShot.class);
     static String path = System.getProperties().getProperty("user.dir") + "/error/";
     /**
      * 错误截图，通过日期命名的截图
