@@ -1,4 +1,5 @@
 package tools;
+
 import log4j.LoggerControler;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
@@ -16,6 +17,9 @@ import java.util.List;
 import static log4j.LoggerControler.getLogger;
 
 
+/**
+ * Created by lenovo on 2016/11/10.
+ */
 public class ExcelUtil {
     final static LoggerControler log= getLogger(ExcelUtil.class);
     //定义一个excel
@@ -60,14 +64,14 @@ public class ExcelUtil {
                 cell.setCellValue(titleRow[i]);
             }
             try {
-                FileOutputStream   fileOutputStream=new FileOutputStream(filePath);
+                FileOutputStream      fileOutputStream=new FileOutputStream(filePath);
                 workbook.write(fileOutputStream);
                 fileOutputStream.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }else{
-            log.info("文件格式必须为xls格式");
+            log.error("文件格式必须为xls格式");
         }
 
     }
@@ -85,7 +89,7 @@ public class ExcelUtil {
                 e.printStackTrace();
             }
         }else{
-            log.info("文件格式必须是xls格式");
+            log.error("文件格式必须是xls格式");
         }
     }
     /* 写入数据到excel中，filePath文件路径，写入内容
@@ -94,9 +98,7 @@ public class ExcelUtil {
      list.add("222")
      <p/>*/
     public static void writeInfoToExcel(String filePath, ArrayList<ArrayList<String>> infos){
-
-
-        if (!MyFile.fileExist(filePath)){
+        if(!MyFile.fileExist(filePath)){
             ExcelUtil.createExcel1(filePath);
         }
         workbook=new HSSFWorkbook();
@@ -124,6 +126,7 @@ public class ExcelUtil {
     插入内容infos*/
 
     public static void writeInfoToExcelByRow(String filePath,int row,ArrayList<ArrayList<String>> infos){
+
         if (!MyFile.fileExist(filePath)){
             ExcelUtil.createExcel1(filePath);
         }
@@ -149,7 +152,7 @@ public class ExcelUtil {
     //指定列插入数据
     public static void writeInfoToExcelByCell(String filePath, int cell, ArrayList<ArrayList<String>> infos) {
 //        判断文件是否存在
-        if (!MyFile.fileExist(filePath)){
+        if (!MyFile.fileExist(filePath)) {
             ExcelUtil.createExcel1(filePath);
         }
         workbook = new HSSFWorkbook();
@@ -369,8 +372,8 @@ public class ExcelUtil {
         }
         return result;
     }
-
-
-
 }
+
+
+
 

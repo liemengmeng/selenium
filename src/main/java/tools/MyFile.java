@@ -17,7 +17,7 @@ public class MyFile {
             if (!MyFile.fileExist(filePath)){
                 File file=new File(filePath);
                 file.mkdir();
-                log.info("new folder successful");
+                log.info("新文件创建成功");
             }
         }
         //删除目录以及目录下所有的文件和文件夹

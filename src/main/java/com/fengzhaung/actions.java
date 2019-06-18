@@ -7,11 +7,16 @@ public class actions {
     public static void clik(By by) {
         //点击的同时还会智能等待
         dengdai.findElement(by).click();
-        {
+
         }
-    }
     //二次封装输入方法
     public static void senkeys(By by,String text){
         dengdai.findElement(by).sendKeys("text");
     }
+//获取文本内容
+    public static String getText(By by){
+        String text=dengdai.findElement(by).getText();
+        return text;
+    }
+
 }
