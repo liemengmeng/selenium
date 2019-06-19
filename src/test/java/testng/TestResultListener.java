@@ -25,6 +25,7 @@ public class TestResultListener extends TestListenerAdapter {
 	@Override
 	public void onTestFailure(ITestResult tr) {
 		super.onTestFailure(tr);
+		//添加截图
 		ScreenShot.screenShots();
 		logger.info(tr.getName() + " Failure");
 	}
@@ -32,6 +33,7 @@ public class TestResultListener extends TestListenerAdapter {
 	@Override
 	public void onTestSkipped(ITestResult tr) {
 		super.onTestSkipped(tr);
+		//添加截图
 		ScreenShot.screenShots();
 		logger.info(tr.getName() + " Skipped");
 	}

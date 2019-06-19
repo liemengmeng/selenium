@@ -1,9 +1,4 @@
 package logic;
-
-
-
-import com.fengzhaung.ScreenShot;
-import com.fengzhaung.seleniumdriver;
 import log4j.LoggerControler;
 
 
@@ -17,9 +12,7 @@ public class testcase {
 
     @Test
     public static void test() {
-        seleniumdriver.open("chrome");
-        seleniumdriver.driver.get("https://www.baidu.com/");
-      ScreenShot.screenShots1("HAHA");
+
 
 
     }
