@@ -1,3 +1,17 @@
 [framework] 2019-06-06 15:39:40,154 - class logic.testcase -0    [main] ERROR class logic.testcase  - test
 [framework] 2019-06-06 15:41:20,680 - class logic.testcase -0    [main] ERROR class logic.testcase  - 这是一个error
 [framework] 2019-06-06 15:55:42,755 - class logic.testcase -7    [main] ERROR class logic.testcase  - 这是一个error
+[framework] 2019-06-19 09:56:49,136 - class logic.testcase -16   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:04:07,272 - class logic.testcase -25   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:04:42,115 - class logic.testcase -19   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:09:46,121 - class logic.testcase -21   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:15:05,524 - class logic.testcase -25   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:28:16,708 - class logic.testcase -19   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:31:39,941 - class logic.testcase -24   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:34:49,608 - class logic.testcase -24   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:39:52,552 - class logic.testcase -18   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 10:41:55,076 - class logic.testcase -17   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 11:03:00,372 - class logic.testcase -15   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 11:08:36,947 - class logic.testcase -19   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 11:14:04,163 - class logic.testcase -19   [main] ERROR class logic.testcase  - 截图失败！！
+[framework] 2019-06-19 11:15:57,855 - class logic.testcase -16   [main] ERROR class logic.testcase  - 截图失败！！

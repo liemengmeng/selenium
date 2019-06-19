@@ -51,3 +51,61 @@
 2019-06-18 17:18:32,753 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 1 times
 2019-06-18 17:18:32,836 INFO main [testng.TestResultListener]onTestStart(line:48)feature Start
 2019-06-18 17:18:38,145 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 2 times
+2019-06-19 09:54:40,992 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 09:54:41,000 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午9:54
+2019-06-19 09:56:49,120 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 09:56:49,124 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午9:56
+2019-06-19 09:56:49,136 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:04:07,247 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 10:04:07,255 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:04
+2019-06-19 10:04:07,272 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:04:42,096 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:04
+2019-06-19 10:04:42,115 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:09:46,100 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:09
+2019-06-19 10:09:46,104 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 10:09:46,105 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:09
+2019-06-19 10:09:46,121 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:13:42,934 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:13
+2019-06-19 10:13:42,941 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 10:13:42,942 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:13
+2019-06-19 10:13:42,943 INFO main [class logic.testcase]info(line:43)19-6-19 上午10:13
+2019-06-19 10:13:42,943 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:13
+2019-06-19 10:15:05,499 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 10:15:05,506 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:15
+2019-06-19 10:15:05,524 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:28:16,689 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 10:28:16,694 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:28
+2019-06-19 10:28:16,708 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:29:41,041 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 10:31:39,917 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 10:31:39,925 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:31
+2019-06-19 10:31:39,941 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:34:49,584 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:34
+2019-06-19 10:34:49,590 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 10:34:49,591 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:34
+2019-06-19 10:34:49,608 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:39:52,534 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:39
+2019-06-19 10:39:52,552 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:41:55,059 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午10:41
+2019-06-19 10:41:55,076 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 10:43:24,777 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 11:03:00,357 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午11:03
+2019-06-19 11:03:00,362 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 11:03:00,362 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午11:03
+2019-06-19 11:03:00,362 INFO main [class logic.testcase]info(line:43)19-6-19 上午11:03
+2019-06-19 11:03:00,363 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午11:03
+2019-06-19 11:03:00,372 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 11:08:36,928 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午11:08
+2019-06-19 11:08:36,934 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 11:08:36,935 INFO main [class logic.testcase]info(line:43)19-6-19 上午11:08
+2019-06-19 11:08:36,947 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 11:12:44,602 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 11:12:44,608 INFO main [class logic.testcase]info(line:43)1560913964600
+2019-06-19 11:14:04,144 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午11:14
+2019-06-19 11:14:04,149 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午11:14
+2019-06-19 11:14:04,163 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 11:15:57,839 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午11:15
+2019-06-19 11:15:57,843 INFO main [class logic.testcase]info(line:43)当前时间为：19-6-19 上午11:15
+2019-06-19 11:15:57,855 ERROR main [class logic.testcase]error(line:46)截图失败！！
+2019-06-19 11:20:43,100 INFO main [class logic.testcase]info(line:43)新文件创建成功
+2019-06-19 11:32:02,801 INFO main [class logic.testcase]info(line:43)1560915122800
