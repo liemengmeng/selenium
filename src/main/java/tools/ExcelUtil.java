@@ -18,7 +18,7 @@ import static log4j.LoggerControler.getLogger;
 
 
 /**
- * Created by lenovo on 2016/11/10.
+ * Excel类封装
  */
 public class ExcelUtil {
     final static LoggerControler log= getLogger(ExcelUtil.class);

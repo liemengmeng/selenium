@@ -1,7 +1,9 @@
 package com.fengzhaung;
 
 import org.openqa.selenium.By;
-
+/*
+二次封装selenium方法
+ */
 public class actions {
     //二次封装点击
     public static void clik(By by) {

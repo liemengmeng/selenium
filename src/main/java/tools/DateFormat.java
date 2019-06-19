@@ -6,8 +6,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import static log4j.LoggerControler.getLogger;
-//时间戳生成
-//System.currentTimeMillis();
+/*
+日期类封装
+时间戳生成:
+System.currentTimeMillis();
+ */
+
 
 public   class  DateFormat {
         final static LoggerControler log= getLogger(tools.DateFormat.class);

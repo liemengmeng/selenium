@@ -5,7 +5,9 @@ import log4j.LoggerControler;
 import java.io.File;
 
 import static log4j.LoggerControler.getLogger;
-
+/*
+文件处理类封装
+ */
 public class MyFile {
         final static LoggerControler log= getLogger(ExcelUtil.class);
         //判断文件是否存在

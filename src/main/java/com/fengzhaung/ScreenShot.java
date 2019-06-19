@@ -13,7 +13,7 @@ import java.io.IOException;
 
 
 /**
- *必须要继承SeleniumDrivers
+ *封装截图方法必须要继承SeleniumDrivers
  */
 public class ScreenShot extends seleniumdriver {
     static final LoggerControler log = LoggerControler.getLogger(ScreenShot.class);

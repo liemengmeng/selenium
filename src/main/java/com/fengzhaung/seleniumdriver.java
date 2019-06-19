@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-
+/*
+二次封装selenium打开浏览器关闭浏览器方法
+ */
 public class seleniumdriver {
     final static LoggerControler log=LoggerControler.getLogger(seleniumdriver.class);
     public static WebDriver driver;

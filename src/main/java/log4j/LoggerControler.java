@@ -8,7 +8,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-
+/*
+lig4j读取配置文件方法
+ */
 
 public class LoggerControler {
     private static Logger logger = null;

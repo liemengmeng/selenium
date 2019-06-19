@@ -12,7 +12,9 @@ import java.util.regex.Pattern;
 import static org.testng.internal.EclipseInterface.*;
 import static org.testng.internal.EclipseInterface.ASSERT_MIDDLE;
 import static org.testng.internal.EclipseInterface.ASSERT_RIGHT;
-
+/*
+重写testng.Assert方法，在fail方法内加入截图方法
+ */
 public class MyAssert extends Assert {
     static final LoggerControler logger = LoggerControler.getLogger(MyAssert.class);
 

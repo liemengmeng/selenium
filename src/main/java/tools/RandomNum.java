@@ -2,7 +2,9 @@ package tools;
 import log4j.LoggerControler;
 
 import java.util.Random;
-
+/*
+随机数封装
+ */
 public class RandomNum {
 
         //生成N位数的一个随机数
