@@ -13,6 +13,7 @@ public class seleniumdriver {
     public static WebDriver driver;
     //开启浏览器方法
     public static WebDriver open(String browser) {
+
         //获取当前driver相对路径根据运行进行改变。
         String path=System.getProperty("user.dri");
         if (browser.equals("chrome")){
