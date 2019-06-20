@@ -5,6 +5,8 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.Augmenter;
 import tools.MyFile;
 
 import java.io.File;
@@ -16,13 +18,15 @@ import java.io.IOException;
  *封装截图方法必须要继承SeleniumDrivers
  */
 public class ScreenShot extends seleniumdriver {
+
     static final LoggerControler log = LoggerControler.getLogger(ScreenShot.class);
     static String path = System.getProperties().getProperty("user.dir") + "/error/";
     /**
      * 错误截图，通过日期命名的截图
      **/
     public static void screenShots() {
-        File file = ((TakesScreenshot)seleniumdriver.driver).getScreenshotAs(OutputType.FILE);
+        WebDriver augmentedDriver = new Augmenter().augment(driver);
+        File file = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
         MyFile myFile=new MyFile();
    //     String myPath=path+String.valueOf(DateFormat.format(DateFormat.REPORT_CSV_FORMAT));
         System.out.print( path);
@@ -41,7 +45,8 @@ public class ScreenShot extends seleniumdriver {
      * 错误截图,通过传入name来给截图命名
      **/
     public static void screenShots1(String name) {
-        File file = ((TakesScreenshot)seleniumdriver.driver).getScreenshotAs(OutputType.FILE);
+        WebDriver augmentedDriver = new Augmenter().augment(driver);
+        File file = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
         try {
             MyFile myFile = new MyFile();
             String times= String.valueOf(System.currentTimeMillis());

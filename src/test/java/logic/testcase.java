@@ -1,8 +1,12 @@
 package logic;
-import log4j.LoggerControler;
+        import MyAssert.MyAssert;
+        import com.fengzhaung.ScreenShot;
+        import com.fengzhaung.seleniumdriver;
+        import log4j.LoggerControler;
 
 
-import org.testng.annotations.Test;
+
+        import org.testng.annotations.Test;
 
 
 
@@ -12,8 +16,9 @@ public class testcase {
 
     @Test
     public static void test() {
-
-
+        seleniumdriver.open("chrome");
+        seleniumdriver.driver.get("https://www.baidu.com/");
+        ScreenShot.screenShots();
 
     }
 }

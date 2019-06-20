@@ -33,8 +33,8 @@ public class TestResultListener extends TestListenerAdapter {
 	@Override
 	public void onTestSkipped(ITestResult tr) {
 		super.onTestSkipped(tr);
-		//添加截图
-		ScreenShot.screenShots();
+		//添加截图，每次重跑不截图就不要加
+	//	ScreenShot.screenShots();
 		logger.info(tr.getName() + " Skipped");
 	}
 
