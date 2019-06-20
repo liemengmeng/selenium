@@ -1,1 +1,1 @@
-step_definitions/releaseCase.feature:4:4
+step_definitions/forget.feature:4:4:4 step_definitions/login.feature:4:9:16:21:4:9:16:21:4:9:16:21

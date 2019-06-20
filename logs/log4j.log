@@ -1,0 +1,26 @@
+2019-06-20 13:58:20,987 INFO main [testng.TestngRetry]<clinit>(line:24)retrycount=2
+2019-06-20 13:58:20,995 INFO main [testng.TestngRetry]<clinit>(line:25)sourceCodeDir=src
+2019-06-20 13:58:20,997 INFO main [testng.TestngRetry]<clinit>(line:26)sourceCodeEncoding=UTF-8
+2019-06-20 13:58:22,836 INFO main [testng.TestResultListener]onTestStart(line:50)feature Start
+2019-06-20 13:58:31,442 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 1 times
+2019-06-20 13:58:31,446 INFO main [testng.TestResultListener]onTestSkipped(line:38)feature Skipped
+2019-06-20 13:58:31,463 INFO main [testng.TestResultListener]onTestStart(line:50)feature Start
+2019-06-20 13:58:31,558 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 2 times
+2019-06-20 13:58:31,561 INFO main [testng.TestResultListener]onTestSkipped(line:38)feature Skipped
+2019-06-20 13:58:31,575 INFO main [testng.TestResultListener]onTestStart(line:50)feature Start
+2019-06-20 13:58:32,630 INFO main [testng.TestResultListener]onTestFailure(line:30)feature Failure
+2019-06-20 13:58:32,631 INFO main [testng.TestResultListener]onTestStart(line:50)feature Start
+2019-06-20 13:58:34,377 INFO main [class testng.utils.ConfigReader]info(line:45)关闭浏览器
+2019-06-20 13:58:34,379 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 1 times
+2019-06-20 13:58:34,380 INFO main [testng.TestResultListener]onTestSkipped(line:38)feature Skipped
+2019-06-20 13:58:34,405 INFO main [testng.TestResultListener]onTestStart(line:50)feature Start
+2019-06-20 13:58:34,471 INFO main [class testng.utils.ConfigReader]info(line:45)关闭浏览器
+2019-06-20 13:58:34,472 INFO main [testng.TestngRetry]retry(line:34)Retry for [feature] on class [Run.Runtest] Retry 2 times
+2019-06-20 13:58:34,473 INFO main [testng.TestResultListener]onTestSkipped(line:38)feature Skipped
+2019-06-20 13:58:34,486 INFO main [testng.TestResultListener]onTestStart(line:50)feature Start
+2019-06-20 13:58:34,558 INFO main [class testng.utils.ConfigReader]info(line:45)关闭浏览器
+2019-06-20 13:58:34,891 INFO main [testng.TestResultListener]onFinish(line:69)skipTest = feature
+2019-06-20 13:58:34,892 INFO main [testng.TestResultListener]onFinish(line:69)skipTest = feature
+2019-06-20 13:58:34,892 INFO main [testng.TestResultListener]onFinish(line:69)skipTest = feature
+2019-06-20 13:58:34,892 INFO main [testng.TestResultListener]onFinish(line:69)skipTest = feature
+2019-06-20 13:58:34,893 INFO main [testng.TestResultListener]onFinish(line:83)failedTest = feature
