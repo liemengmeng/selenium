@@ -1,18 +1,15 @@
 package com.steps;
-import cucumber.api.PendingException;
+import com.fengzhaung.seleniumdriver;
 import cucumber.api.java.zh_cn.假如;
 import cucumber.api.java.zh_cn.那么;
 import logic.login_logic;
-import logic.openURL;
-import logic.quitURL;
-import org.testng.annotations.Test;
 
 public class loginSteps {
 
     //正确账号密码登录
     @假如("^录入账号\"([^\"]*)\"录入密码\"([^\"]*)\"后点击登录$")
     public void 录入账号录入密码(String username, String password)  {
-        openURL.open();
+        seleniumdriver.open("chrome");
         login_logic.userlogin(username,password);
     }
     @那么("^登录成功退出登录执行下一场景$")
@@ -60,6 +57,6 @@ login_logic.loginfalse();
     }
     @那么("^关闭浏览器$")
     public void 关闭浏览器() {
-        quitURL.quit();
+        seleniumdriver.closeAll();
 }
 }

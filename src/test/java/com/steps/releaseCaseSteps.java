@@ -1,8 +1,8 @@
 package com.steps;
+import com.fengzhaung.seleniumdriver;
 import cucumber.api.java.zh_cn.并且;
 import cucumber.api.java.zh_cn.当;
 import cucumber.api.java.zh_cn.那么;
-import logic.quitURL;
 import logic.releaseCase_logic1;
 
 public class releaseCaseSteps {
@@ -28,6 +28,6 @@ public class releaseCaseSteps {
 
     @那么("^发布成功，退出浏览器$")
     public void 发布成功退出浏览器()  {
-        quitURL.quit();
+        seleniumdriver.closeAll();
     }
 }
