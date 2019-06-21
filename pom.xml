@@ -49,6 +49,34 @@
         <version>1.2.17</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+    <dependency>
+        <groupId>org.uncommons</groupId>
+        <artifactId>reportng</artifactId>
+        <version>1.1.4</version>
+        <scope>test</scope>
+        <exclusions>
+            <exclusion>
+                <artifactId>testng</artifactId>
+                <groupId>org.testng</groupId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+    <dependency>
+        <groupId>com.google.inject</groupId>
+        <artifactId>guice</artifactId>
+        <version>3.0</version>
+        <exclusions>
+            <exclusion>
+                <artifactId>aopalliance</artifactId>
+                <groupId>aopalliance</groupId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+
+
+
     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
     <dependency>
         <groupId>org.apache.poi</groupId>
